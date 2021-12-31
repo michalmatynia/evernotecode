@@ -1,3 +1,13 @@
+ // Destructuring
+  
+  // 1. Array 
+  const hobi = ['Hiking', 'Cooking', 'Sleeping']
+  
+  const [hobby1, hobby2, ...rest] = hobi
+  
+  // 2. Object
+  const {age, ...restpersona} = persona
+
 // Remove through destructuring, does it work on Array? Yes
 
 const { _id, _v, ...restcurrent } = insert
